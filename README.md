@@ -1,3 +1,3 @@
-# CodePact Documentation
+# CodePact Tutorials 
 
-This repository contains documentation for using CodePact.
+This repository contains tutorials for using CodePact.
