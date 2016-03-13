@@ -95,7 +95,7 @@ This is what that looks like:
 
 You don't need to add guidance - you can use default text only if you prefer.
 
-You can also create multiline variables if you want to.  All you need to do is create multiline default text.  Here's an example.
+You can also create multiline default text and guidance for variables.
 
 ```markdown
 ## Variables
@@ -107,6 +107,8 @@ You can also create multiline variables if you want to.  All you need to do is c
 - this is the last list item.
 
 `Guidance` This is the guidance text that's displayed when you open the variable.
+
+This is the second line of the guidance text that's displayed when you open the variable.
 ```
 
 ## Definitions Section
