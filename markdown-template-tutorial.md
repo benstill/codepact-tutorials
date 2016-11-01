@@ -2,10 +2,7 @@
 
 CodePact templates create legal agreements on a web interface that you can sign electronically.
 
-It's simple to create CodePact Templates (**Templates**) with **options, variables and guidance** using:
-
-- [Markdown documents](https://help.github.com/articles/github-flavored-markdown/) (explained in this tutorial); or
-- [Word Documents (explained here)](http://guide.codepact.com/introduction/).
+It's simple to create CodePact Templates (**Templates**) with **options, variables and guidance** using [Markdown documents](https://help.github.com/articles/github-flavored-markdown/).
 
 Using markdown is better because you can store them on [Github](http://github.com). There are some complete templates [here](http://github.com/codepact) - they're **open source**, so feel free to fork and submit pull requests!
 
