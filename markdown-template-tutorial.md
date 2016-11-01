@@ -57,8 +57,6 @@ This is the clause text for clause option number 2.
 
 To create a variable in a markdown template, all you need to do is write words {{like this}} in the clause text (use two curly braces on either side).
 
-When you open the document on the CodePact interface, you'll then have the ability to insert text.  Here's what it looks like.
-
 ```markdown
 ## Topic Heading
 
@@ -81,9 +79,6 @@ This is the default text in the variable when you open it
 
 `Guidance` This is the guidance text that's displayed when you open the variable.
 ```
-This is what that looks like:
-
-![](http://guide.codepact.com/content/images/2015/09/cp_variables.png)
 
 You don't need to add guidance - you can use default text only if you prefer.
 
