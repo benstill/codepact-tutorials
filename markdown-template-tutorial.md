@@ -167,7 +167,3 @@ A valid Template requires the following elements:
 </tr>
 </tbody>
 </table>
-
-There's a screen shot below of how CodePact's interface displays the information.
-
-![](http://guide.codepact.com/content/images/2015/09/cp_title.png)
