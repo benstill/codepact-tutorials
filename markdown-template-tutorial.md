@@ -1,5 +1,3 @@
-![](https://s3.amazonaws.com/codepact-demo-static/option_select_variable_fill.gif)
-
 # CodePact Templates in Markdown
 
 CodePact templates create legal agreements on a web interface that you can sign electronically.
@@ -35,9 +33,6 @@ All you need is a topic heading (## Markdown heading) and normal text for the cl
 This is the clause text right here.
 
 ```
-Looks like this:
-
-![](http://guide.codepact.com/content/images/2015/09/cp_single_topic.png)
 
 **2.  Topic Heading with Multiple Clause Options**
 
@@ -57,9 +52,6 @@ This is the clause text for clause option number 1.
 This is the clause text for clause option number 2.
 
 ```
-Looks like this - notice that the clause summary appears before option selection:
-
-![](http://guide.codepact.com/content/images/2015/09/cp_two_clause_topic.png)
 
 ## Variables Section
 
@@ -118,10 +110,6 @@ You need three things for definition functionality in a CodePact template:
 - the use of capitalised terms in template clauses;
 - the last topic (or second last if there's a variable topic) of the template called "Definitions" (## heading); and
 - a list of the defined terms (### heading).
-
-Definitions operate like this:
-
-![](http://guide.codepact.com/content/images/2015/09/cp_definition_display.png)
 
 Here's what the end of a CodePact document often looks like.
 
