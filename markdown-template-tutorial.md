@@ -2,9 +2,15 @@
 
 CodePact templates create legal agreements on a web interface that you can sign electronically.
 
-It's simple to create CodePact Templates (**Templates**) with **options, variables and guidance** using [Markdown documents](https://help.github.com/articles/github-flavored-markdown/).
+It's simple to create CodePact Templates (**Templates**) with **options, variables and guidance** using [Markdown documents](https://guides.github.com/features/mastering-markdown/).
 
-Using markdown is better because you can store them on [Github](http://github.com). There are some complete templates [here](http://github.com/codepact) - they're **open source**, so feel free to fork and submit pull requests!
+Markdown is a simple programming language that is widely used to create documents. It is simple to read, and even simpler to write - as long as you keep in mind some key concepts:
+- line breaks matter. We use them to separate paragraphs and titles. Or two paragraphs.
+- Sometimes spaces are important - or you might have a space where you shouldn't
+- uppercase / lowercase can also matter - for example when defining headings or some variables. We've put a :interrobang: symbol to show a potential gotcha.
+- for formatting, keep [this guide] (https://help.github.com/articles/basic-writing-and-formatting-syntax/) handy. More [advanced formatting here](https://help.github.com/articles/organizing-information-with-tables/).
+
+If you try to load your template into CodePact and get an error, it is usually something relating to a Markdown issue. Go through your template and check linespaces and case.
 
 It'll only take you 10 seconds to make your first CodePact template from Markdown:
 
@@ -14,11 +20,16 @@ It'll only take you 10 seconds to make your first CodePact template from Markdow
 
 4.  Click "Save New Draft" to see the template preview then click "Finalize".  Now you can use the template to create an agreement.
 
+Another option is to store your templates on [Github](http://github.com), with either a free or paid account. There are some complete templates [here](http://github.com/codepact) - they're **open source**, so feel free to fork and submit pull requests!
+
+To add your template stored on GitHub, in CodePact go to Templates > Create > Add Github Agreement. You can now create new agreements with your template. If you need to make changes, make the update on GitHub, and [create a release](https://help.github.com/articles/creating-releases/) :interrobang: You'll notice a pink cog appear next to your template, which you can click to apply these updates when you're ready.
+
 ## Template Basics
 
-Every legal agreement covers a list of topics (usually there's an index).  Each topic heading is followed by a clause.  Topic headings can't be longer than 50 characters.
+Every legal agreement covers a list of topics (usually there's an index).  Each topic heading is followed by a clause.  Topic headings can't be longer than 50 characters. 
+:interrobang: Make sure you have a space between the ## and your topic title. Each word needs to have first letter uppercase, and there needs to be a line break between your heading and the text following.
 
-In a CodePact template, there are two main possibilities.
+In a CodePact template, there are two options:
 
 **1.  Topic Heading with One Clause Option**
 
@@ -52,7 +63,8 @@ This is the clause text for clause option number 2.
 
 ## Variables Section
 
-To create a variable in a markdown template, all you need to do is write words {{like this}} in the clause text (use two curly braces on either side).
+To create variables in your template, all you need to do is write words {{like this}} in the clause text (use two curly braces on either side). When you create your agreement in CodePact, you'll be asked to define that variable.
+
 
 ```markdown
 ## Topic Heading
@@ -65,7 +77,7 @@ You can also add:
 - default text; and
 - guidance to variables,
 
-like this - note that this information goes at the end of the document in a topic called "Variables".
+like this - note that this information goes at the end of the document in a topic called "Variables". Don't worry - this won't appear in your final agreement as a topic called "variables". :interrobang: But it is important that you use the name "Variables" otherwise it won't get picked up.
 
 ```markdown
 ## Variables
@@ -97,11 +109,13 @@ This is the second line of the guidance text that's displayed when you open the 
 
 ## Definitions Section
 
+Definitions are a useful feature - you can add words to your agreement document (either as part of the template or in the text you add). Then in this special Definitions area you can explain what they mean. As long as you stick to the rules (first letter caps, and use the same spelling) then CodePact will automatically create definition links to this Definition section.
+
 You need three things for definition functionality in a CodePact template:
 
-- the use of capitalised terms in template clauses;
-- the last topic (or second last if there's a variable topic) of the template called "Definitions" (## heading); and
-- a list of the defined terms (### heading).
+1. the use of first letter capitalised terms in your template clauses;
+2. the last topic (or second last if there's a variable topic) of the template called "Definitions" (## heading); and
+3. a list of the defined terms (### heading).
 
 Here's what the end of a CodePact document often looks like.
 
